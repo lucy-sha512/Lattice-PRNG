@@ -1,5 +1,10 @@
-# ibmswtpm2
-This project is an implementation of the TCG TPM 2.0 specification. It is based on the TPM specification Parts 3 and 4 source code donated by Microsoft, with additional files to complete the implementation.
 
-See the companion IBM TSS at https://sourceforge.net/projects/ibmtpm20tss/
 # Lattice-PRNG
+Lattice-PRNG aims to build a quantum secure pseudorandom generator using lattices.
+# Stages
+1. Research on theoretical concepts of Pseudorandom functions and generators.
+2. Homomorphic function & Lattices analysis and concrete foundation
+3. Library for generating LWE vectors
+4. Implementation of homomorphic function based on 4 on LFSR
+5. Testing
+
